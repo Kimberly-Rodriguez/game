@@ -4,12 +4,12 @@ let losses = 0;
 let ties = 0;
 
 //Array showing the option available for the computer to select from
-let options = [ "Rock", "Paper", "Scissors"]; 
+let options = [ "R", "P", "S"]; 
 
 
 let playGame = function() {
   // ask user for choice
- let userOptions = window.prompt("Enter Rock, Paper, or Scissors");
+ let userOptions = window.prompt("Enter R, P, or S");
 
  // if user selects Cancel -- end function
   if (!userOptions){
@@ -19,6 +19,21 @@ let playGame = function() {
   userOptions = userOptions.toUpperCase();
 
 
+  // Get random index from array of options
+  let index = Math.floor(Math.random() * options.length);
+  let computerChoice = option[index];
+
+  window.alert("the computer selected " + computerChoice);
+
+ // If there is a tie between user and computer
+ if (userOptions === computerChoice) {
+   ties++
+   window.alert("it's a tie");
+  
+ } else if ((userOptions === "R" && computerChoice === "S") ||
+           (userOptions === "P" && computerChoice === "R")){
+
+ }
 
 
 
