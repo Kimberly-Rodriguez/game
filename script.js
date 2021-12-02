@@ -1,3 +1,4 @@
+// set score chart 
 let wins = 0;
 let losses = 0;
 let ties = 0;
@@ -5,6 +6,23 @@ let ties = 0;
 //Array showing the option available for the computer to select from
 let options = [ "Rock", "Paper", "Scissors"]; 
 
+
+let playGame = function() {
+  // ask user for choice
+ let userOptions = window.prompt("Enter Rock, Paper, or Scissors");
+
+ // if user selects Cancel -- end function
+  if (!userOptions){
+  return;
+  }
+  // Convert to uppercase to make the comparison easier to do
+  userOptions = userOptions.toUpperCase();
+
+
+
+
+
+}
 
 
 
