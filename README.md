@@ -26,7 +26,7 @@ git@github.com:Kimberly-Rodriguez/game_time.git
 
 ## Tools
 
-This application is built using JavaScript with methods like `alert()`, `confirm()`, and `prompt()` to collect user input and display information to the user.
+This application was built using JavaScript with methods like `alert()`, `confirm()`, and `prompt()` to collect user input and display information to the user.
 
 ## Specification
 
