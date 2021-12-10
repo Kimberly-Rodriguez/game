@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Description](#description)
-* [Instalation](#instalation)
+* [Installation](#installation)
 * [Tools](#tools)
 * [Specification](#Specification)
 * [Contact](#contact)
@@ -13,7 +13,7 @@
 ## Description
 A classic game of rock (R), paper (P), scissors (S) that anyone can play agains an automated opponent. 
 
-## Instalation
+## Installation
 
 * Clone the repo (please reference the links below).
 ```md 
@@ -22,7 +22,7 @@ git@github.com:Kimberly-Rodriguez/game_time.git
 ```
 ![webimage](public/assets/rockPaperScissors.png)
 
-[link]( https://kimberly-rodriguez.github.io/game_time/)
+[Application-Link]( https://kimberly-rodriguez.github.io/game_time/)
 
 ## Tools
 
@@ -30,7 +30,7 @@ This application is built using JavaScript with methods like `alert()`, `confirm
 
 ## Specification
 
-* The computer's selection is a random selection to ensure a fair game. 
+The computer's selection is a random selection to ensure a fair game. 
 
 ## Contact
 
